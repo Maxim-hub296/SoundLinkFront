@@ -5,7 +5,7 @@ function App() {
     const [data, setData] = useState(null);
 
     useEffect(() => {
-        fetch("http://localhost:8000/api/test/", {
+        fetch("api/test/", {
             method: 'GET',
             headers: { "Content-Type": "application/json" }
         })
